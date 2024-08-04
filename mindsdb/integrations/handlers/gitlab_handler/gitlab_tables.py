@@ -391,3 +391,7 @@ class GitlabMergeRequestsTable(APITable):
             "closed",
             "merged",
         ]
+
+
+class GitlabMergeRequestsTable(APITable):
+    """The GitLab Branch Table implementation"""
